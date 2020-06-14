@@ -11,6 +11,13 @@ Currently includes:
 
 Super user: `admin/admin`
 
+### PyCharm Django Support
+
+PyCharm Professional has special Django support that can be enabled in the settings.
+
+* The project root should be `mysite/mysite` here
+* Not sure how it helps/works yet. See https://www.jetbrains.com/help/pycharm/django-support7.html#
+
 ### Django
 
 Relevant Django CLI commands.
@@ -22,6 +29,7 @@ Relevant Django CLI commands.
 * `python manage.py shell`: Interactive Python shell with some extra configs for Django
     * For checking/testing the model API
     * Restart shell after making changes to model
+* `python manage.py test polls`: Run the test cases for the `polls` app (`polls/tests*.py`)
 
 #### Setup new project or app
 
