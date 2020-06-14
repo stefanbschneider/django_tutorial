@@ -27,5 +27,6 @@ jobs:
         TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
         TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       run: |
-        python django-tutorial/setup.py sdist bdist_wheel
-        twine upload django-tutorial/dist/*
+        cd django-tutorial
+        python setup.py sdist bdist_wheel
+        twine upload dist/*

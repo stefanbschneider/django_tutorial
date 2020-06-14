@@ -6,6 +6,8 @@
 Following the [Django tutorial](https://docs.djangoproject.com/en/3.0/intro/tutorial01/) to create a simple app for 
 creating polls, ie, questions with multiple choices where people can vote.
 
+The `polls` app is packaged `django-tutorial`. The Django project is in `mysite`.
+
 ## Development
 
 Super user: `admin/admin`
