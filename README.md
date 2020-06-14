@@ -1,11 +1,10 @@
-# Django Backend
+![Django CI](https://github.com/stefanbschneider/django_tutorial/workflows/Django%20CI/badge.svg)
 
-Mostly based on the [Django tutorial](https://docs.djangoproject.com/en/3.0/intro/tutorial01/).
 
-Currently includes:
+# Django Tutorial
 
-* The quotify project
-* The polls app from the tutorial
+Following the [Django tutorial](https://docs.djangoproject.com/en/3.0/intro/tutorial01/) to create a simple app for 
+creating polls, ie, questions with multiple choices where people can vote.
 
 ## Development
 
