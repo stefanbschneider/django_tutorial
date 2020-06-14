@@ -30,6 +30,7 @@ Relevant Django CLI commands.
     * For checking/testing the model API
     * Restart shell after making changes to model
 * `python manage.py test polls`: Run the test cases for the `polls` app (`polls/tests*.py`)
+    * More details on Testing Django: https://docs.djangoproject.com/en/3.0/topics/testing/
 
 #### Setup new project or app
 
