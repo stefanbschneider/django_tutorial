@@ -41,7 +41,7 @@ Relevant Django CLI commands.
 
 #### DB Setup or changes
 
-* Change models in `models.py` (per app, eg, `polls`)
+* Change models in `models.py` (per app, eg, `polls`) and register in `admin.py`
 * `python manage.py makemigrations polls`: Create migrations for given/changed models, here, in `polls/models.py` 
 * `python manage.py migrate`: Setup & sync DB by applying migrations. Can safely be run again - won't repeat actions twice.
 * (`python manage.py sqlmigrate polls 0001`: Translate Django migrations to SQL commands (printed out; not yet applied to DB))
